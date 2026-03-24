@@ -19,7 +19,7 @@ public class MainApp {
    
 
     public static void main(String[] args) {
-        
+        System.out.println("DevOps Project Running");
         Point p = new Point(10, 20);
 
         Shape circle = new Circle(5, p) {} ;
