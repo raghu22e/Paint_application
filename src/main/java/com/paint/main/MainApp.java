@@ -11,7 +11,7 @@ import com.paint.utils.Point;
 import com.paint.window.ConsoleWindow;
 import com.paint.window.Window;
 
-/**
+/*
  *
  * @author HP
  */
@@ -19,14 +19,13 @@ public class MainApp {
    
 
     public static void main(String[] args) {
-        System.out.println("DevOps Project Running");
+        System.out.println("Devops Project Running");
         Point p = new Point(10, 20);
 
         Shape circle = new Circle(5, p) {} ;
         circle.draw();
         circle.move(30, 40);
         circle.resize(2);
-
         Shape rect = new Rectangle(new Point(0, 0), 10, 20) {};
         rect.draw();
 
